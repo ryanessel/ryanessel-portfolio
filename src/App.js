@@ -4,11 +4,16 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Logostrip from './components/Logostrip';
 import ProfileCard from './components/ProfileCard';
 import Testdrag from './components/Testdrag';
 
 
-import { Routes, Route } from 'react-router-dom';
+
+
+
+
+import { Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -19,13 +24,20 @@ function App() {
 
     <Routes>
 
-    <Route path="/home" element={<Home/>}/>
+      
+
+    <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
 
     </Routes>
 
 
+
+
+<Logostrip/>
+
+      
 
     </div>
   );

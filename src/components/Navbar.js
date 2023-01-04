@@ -23,7 +23,7 @@ import { useState } from "react";
         CONTACT
         </Link>
       </div> */}
-   
+                                  {/* flex-col */}
    <nav className="bg-teal-800 p-2 flex items-center justify-between">
   
       <button onClick={() => setIsOpen(!isOpen)} className="block px-2 text-white hover:text-gray-400">
@@ -36,13 +36,16 @@ import { useState } from "react";
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
         </svg>
       </button>
-      {isOpen && (
+      {isOpen && (                          //flex-col ---- stacks it for mobile and doesn't make the page too long
         <div className="bg-teal-800 py-2 px-3 flex items-center justify-between">
 
-            <Link to='/home' className="block px-2 py-1 text-white hover:text-gray-400"  > Home
+            <Link to='/' className="block px-2 py-1 text-white hover:text-gray-400"  > Home
             </Link>
 
             <Link to='/about' className="block px-2 py-1 text-white hover:text-gray-400"  > About
+            </Link>
+
+            <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
             </Link>
 
             <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact

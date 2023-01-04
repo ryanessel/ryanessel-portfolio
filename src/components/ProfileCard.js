@@ -12,16 +12,80 @@ import {
 
  function ProfileCard() {
   return (
-<div className="card w-96 bg-base-100 shadow-xl text-black lg:mt-60 md:mt-10  sm:w-9/12">
+<div className="card w-96 bg-base-100 shadow-xl text-black  lg:w-1/3 mb-4  mt-20 sm:mt-5 md:mt-10   sm:w-9/12">
   <figure className="px-10 pt-10">
     
-    <img src={''} alt="photo of me" width="200px" className="rounded-xl lg:w-64" />
+    <img src={""} alt="photo of me" width="200px" className="rounded-xl lg:w-64" />
   </figure>
+
+  
   <div className="card-body items-right text-center">
     <h2 className="card-title ">Ryan Essel</h2>
     <p className="items-right text-left">Hello, my name is Ryan Essel. Thank you for taking the time to look at my portfolio.</p>
     <br/>
-    <p className="items-right text-left">Hello, my name is Ryan Essel. Thank you for taking the time to look at my portfolio.</p>
+    <p className="items-right text-left">My skill set includes the following:</p>
+    <ul className="text-left">
+      <span className="font-bold underline">MERN Stack</span>
+      <li>
+      ・Mongodb & Mongodb Compass
+      </li>
+
+      <li>
+      ・Express
+      </li>
+
+      <li>
+      ・React
+      </li>
+
+      <li>
+      ・Node.js
+      </li>
+    </ul>
+
+    <div className="items-right text-left">
+    <ul className="text-left">
+    <span className="font-bold underline">Other Skills</span>
+      <li>
+      ・HTML
+      </li>
+
+      <li>
+      ・Javascript
+      </li>
+
+      <li>
+      ・CSS
+      </li>
+
+      <li>
+      ・Handlebars
+      </li>
+
+      <li>
+      ・Github
+      </li>
+
+      <li>
+      ・Gitbash
+      </li>
+
+      <li>
+      ・VSCODE
+      </li>
+      
+      <li>
+      ・Some experince with Java
+      </li>
+
+
+
+    </ul>
+      
+      
+
+    </div>
+    
     <div className="card-actions">
     
     </div>
