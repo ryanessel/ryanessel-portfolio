@@ -13,7 +13,7 @@ export default function About() {
         </div>
        
     
-       <ProjectsCard/>
+     
         
     </div>
   )

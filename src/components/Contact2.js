@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import axios from 'axios';
 
 
@@ -13,7 +13,7 @@ const defaultFormFields = {
 
 const Contact2 = () => {
 
-    
+    const emailForm = useRef(null);
 
     const [ formFields, setFormFields ] = useState(defaultFormFields);
     const { name, email, message } = formFields;
@@ -49,6 +49,12 @@ const Contact2 = () => {
         
     } 
 
+
+    const handleTouchSubmit = (e) => {
+        e.preventDefault()
+
+        emailForm.current.submit()
+    }
     
     return (
        
@@ -80,7 +86,7 @@ const Contact2 = () => {
          <div className='sign-up-container text-left'>
                 
 
-                <form onSubmit={handleContactSubmit}>
+                <form ref={emailForm} onSubmit={handleContactSubmit}>
                     <h2>Send me a message</h2>
 
                     <input 
@@ -111,9 +117,11 @@ const Contact2 = () => {
                     onChange={handleChange}
                     />
                     <br/>
-                    <button className="btn btn-blue" onTouchStart="submit" type='submit'>Submit</button>
+                       
 
-                    { successMessage && <h3 className="success-message">{successMessage}</h3> }
+                    <button className='btn btn-blue' > Submit </button>
+
+                    { successMessage && <h3 className="success-message rounded">{successMessage}</h3> }
                 </form>
     
 
