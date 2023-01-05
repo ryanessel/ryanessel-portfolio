@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
     
 
 <HomePageBlurb 
-homePageGreeting={"Hello Welcome to my portfolio"}
+homePageGreeting={"Hello Welcome to Ryan Essel's portfolio"}
 aboutInfo={`Please click the "About" link in the menu above to learn a bit about me and see some projects I have created`}
 contactMe={"Please send me an email via the Contact page and/or contact me via the Linkedn link at the bottom of each page"}
 githubRepo={"Please take a look at my github reposity which can be accessed though the link at the bottom of each page"}
