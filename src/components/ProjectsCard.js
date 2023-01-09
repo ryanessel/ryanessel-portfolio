@@ -27,7 +27,7 @@ import React from 'react'
     <div className='text-2xl text-amber-600 underline '>Simple/Dungeon Game</div>
 </a>
 
-<a href='https://github.com/ryanessel/Ry-Game-Forum-App-Project-2'>
+<a href='https://game-form-app.onrender.com/'>
     <div className='text-2xl text-amber-600 underline'>Game Message Board</div>
 </a>
 
