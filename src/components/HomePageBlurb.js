@@ -1,6 +1,6 @@
 import React from 'react'
 
- function HomePageBlurb({homePageGreeting, aboutInfo, contactMe, githubRepo}) {
+ function HomePageBlurb({homePageGreeting, aboutInfo, contactMe, githubRepo, myProjects}) {
   return (
     <div  className=' flex items-center justify-center'>
 
@@ -15,7 +15,7 @@ import React from 'react'
   </figure>
 
   
-  <div className="card-body items-right text-center">
+  <div className="card-body items-right text-center pt-0">
 
 
   <div>
@@ -26,21 +26,24 @@ import React from 'react'
    
     <ul className="text-left">
       <span className="font-bold underline">Brief Guide</span>
-      <li className='mt-3 list-disc'>
-       {homePageGreeting}
-      </li>
 
       <li className='mt-3 list-disc'>
       {aboutInfo}
       </li>
 
       <li className='mt-3 list-disc'>
-      {contactMe}
+      {myProjects}
       </li>
 
       <li className='mt-3 list-disc'>
       {githubRepo}
       </li>
+
+      <li className='mt-3 list-disc'>
+      {contactMe}
+      </li>
+
+
     </ul>
   
     

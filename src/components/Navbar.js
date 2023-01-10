@@ -45,12 +45,14 @@ import { useState } from "react";
             <Link to='/about' className="block px-2 py-1 text-white hover:text-gray-400"  > About
             </Link>
 
-            <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
-            </Link>
-
             <Link to='/projects' className="block px-2 py-1 text-white hover:text-gray-400"  > Projects
             </Link>
             
+
+            <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
+            </Link>
+
+
             
   
         </div>

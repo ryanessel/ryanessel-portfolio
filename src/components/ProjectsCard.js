@@ -1,4 +1,7 @@
 import React from 'react'
+import dungeonGame from "../pictures/dungeon.png"
+import gamefaqsClone from "../pictures/gamefaqs-clone.png"
+import erpExample from "../pictures/ERP example website.png"
 
  function ProjectsCard() {
   return (
@@ -21,19 +24,47 @@ import React from 'react'
 
  {/* put stuff here */}
  <div className='projectsInnerDiv'>
+
+
+  <section id="dungeon-game" className='mb-10'>
+
  
  <a href='https://ryanessel.github.io/IH-first-project-game-repository/'>
-  
-    <div className='text-2xl text-amber-600 underline '>Simple/Dungeon Game</div>
-</a>
 
-<a href='https://game-form-app.onrender.com/'>
+    <div className='text-2xl text-amber-600 underline '>Simple/Dungeon Game</div>
+    <img src={dungeonGame} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
+  </a>
+    <li className='mt-3 list-disc' >Simple Dungeon RPG game created with HTML, CSS and JS. </li>
+ </section>
+
+<section id="gamefaqs-clone" className='mb-10'>
+
+<a  href='https://game-form-app.onrender.com/'>
     <div className='text-2xl text-amber-600 underline'>Game Message Board</div>
-</a>
+    <img src={gamefaqsClone} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
+    </a>
+    <ul>
+      <li className=' mt-3 list-disc'>Game forum website like gamefaqs</li>
+      <li className='mt-3 list-disc'>Sign up and login Make, and delete Threads specific to your poster ID</li>
+      <li className='mt-3 list-disc'>Sign up and login Comment and delete comments specific to your Poster ID</li>
+      <li className='mt-3 list-disc'>All threads viewable when not logged in. Just can't post</li>
+    </ul>
+    </section>
+
+<section id="quote-system" className='mb-10'>
 
 <a href='https://ih-final-front-end.onrender.com/login'>
     <div className='text-2xl text-amber-600 underline'>Quote, Parts, Datbase System</div>
-</a>
+    <img src={erpExample} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
+    </a>
+    <ul>
+      <li className='mt-3 list-disc'>Replicates some aspects of an ERP</li>
+      <li className='mt-3 list-disc'>Sign up and login to add parts and make quotes</li>
+      <li className='mt-3 list-disc'>Quotes Made are automatically listed in the quote list page</li>
+      <li className='mt-3 list-disc'>All threads viewable when not logged in. Just can't post</li>
+    </ul>
+    </section>
+
     
 </div>
   </div>
