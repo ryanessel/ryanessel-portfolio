@@ -69,10 +69,10 @@ const Contact2 = () => {
         <div className="card w-11/12 md:w-2/3  bg-base-100 shadow-xl text-black  xl:w-[45rem] mb-4  mt-20 sm:mt-5 md:mt-10 ">
           
           
-          <figure className="px-10 pt-10 text-6xl">
-            {/* title goes here */}
-         Contact me
-          </figure>
+        <figure className="px-10 pt-10 text-4xl underline">
+        {/* title goes here */}
+        Contact Me
+        </figure>
         
           
           <div className="card-body items-right text-center">

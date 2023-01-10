@@ -8,12 +8,12 @@ import erpExample from "../pictures/ERP example website.png"
     <div className='flex items-center justify-center'>
 
 
-<div className="card w-11/12 md:w-2/3 bg-base-100 shadow-xl text-black  xl:w-[45rem] mb-4  mt-20 sm:mt-5 md:mt-10  ">
+<div className="card w-11/12 md:w-2/3  bg-base-100 shadow-xl text-black  xl:w-[45rem] mb-4  mt-20 sm:mt-5 md:mt-10  ">
   
   
   <figure className="px-10 pt-10 text-4xl underline">
     {/* title goes here */}
-    Projects
+     My Projects
   </figure>
 
 
@@ -31,37 +31,41 @@ import erpExample from "../pictures/ERP example website.png"
  
  <a href='https://ryanessel.github.io/IH-first-project-game-repository/'>
 
-    <div className='text-2xl text-amber-600 underline '>Simple/Dungeon Game</div>
+    <div className='text-2xl text-amber-600 underline mb-3 '>Simple/Dungeon Game</div>
     <img src={dungeonGame} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
   </a>
+  <li className='mt-3 list-disc'>Made with HTML, CSS and JS</li>
     <li className='mt-3 list-disc' >Simple Dungeon RPG game created with HTML, CSS and JS. </li>
  </section>
+<hr className='mb-3'/>
 
 <section id="gamefaqs-clone" className='mb-10'>
 
 <a  href='https://game-form-app.onrender.com/'>
-    <div className='text-2xl text-amber-600 underline'>Game Message Board</div>
+    <div className='text-2xl text-amber-600 underline mb-3 '>Game Message Board</div>
     <img src={gamefaqsClone} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
     </a>
     <ul>
+    <li className='mt-3 list-disc'>Made with MEHN (Handlebars) stack</li>
       <li className=' mt-3 list-disc'>Game forum website like gamefaqs</li>
-      <li className='mt-3 list-disc'>Sign up and login Make, and delete Threads specific to your poster ID</li>
-      <li className='mt-3 list-disc'>Sign up and login Comment and delete comments specific to your Poster ID</li>
-      <li className='mt-3 list-disc'>All threads viewable when not logged in. Just can't post</li>
+      <li className='mt-3 list-disc'>Sign up and login to make, and delete Threads specific to your poster ID</li>
+      <li className='mt-3 list-disc'>Sign up and login to comment and delete comments specific to your Poster ID</li>
+      <li className='mt-3 list-disc'>All threads viewable when not logged in; just can't post</li>
     </ul>
     </section>
-
+    <hr className='mb-3'/>
 <section id="quote-system" className='mb-10'>
 
 <a href='https://ih-final-front-end.onrender.com/login'>
-    <div className='text-2xl text-amber-600 underline'>Quote, Parts, Datbase System</div>
+    <div className='text-2xl text-amber-600 underline mb-3 '>Quote, Parts, Datbase System</div>
     <img src={erpExample} alt="photo of me" width="200px" className="rounded-xl lg:w-64"/>
     </a>
     <ul>
+    <li className='mt-3 list-disc'>Made with MERN stack and tailwind</li>
       <li className='mt-3 list-disc'>Replicates some aspects of an ERP</li>
       <li className='mt-3 list-disc'>Sign up and login to add parts and make quotes</li>
       <li className='mt-3 list-disc'>Quotes Made are automatically listed in the quote list page</li>
-      <li className='mt-3 list-disc'>All threads viewable when not logged in. Just can't post</li>
+      <li className='mt-3 list-disc'>Country Code live currecy search using API at top of page</li>
     </ul>
     </section>
 

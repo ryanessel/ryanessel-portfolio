@@ -15,8 +15,8 @@ import { Link } from 'react-router-dom';
 <HomePageBlurb 
 homePageGreeting={"Hello Welcome to Ryan Essel's portfolio"}
 aboutInfo={`Please click the "About" link in the menu above to learn a bit about me`}
-myProjects={'Click on the "Projects" links to see my projects'}
-contactMe={"Please send me an email via the Contact page and/or contact me via the Linkedn link at the bottom of each page"}
+myProjects={'Click on the "Projects" link to see my projects'}
+contactMe={"Please send me an email via the Contact page and/or contact me via the LinkedIn link at the bottom of each page"}
 githubRepo={"Please take a look at my github reposity which can be accessed though the link at the bottom of each page"}
 
 
