@@ -1,8 +1,10 @@
 import { useState, useRef } from 'react';
 import axios from 'axios';
 
+// UNCOMMENT FOR LOCAL
+// const API_URI = "http://localhost:5005";
 
-const API_URI = "http://localhost:5005";
+const API_URI = "https://ryanessel-portofolio-email-receptacle.onrender.com";
 
 const defaultFormFields = {
     name: '',
