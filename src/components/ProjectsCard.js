@@ -65,7 +65,7 @@ import erpExample from "../pictures/ERP example website.png"
       <li className='mt-3 list-disc'>Replicates some aspects of an ERP</li>
       <li className='mt-3 list-disc'>Sign up and login to add parts and make quotes</li>
       <li className='mt-3 list-disc'>Quotes Made are automatically listed in the quote list page</li>
-      <li className='mt-3 list-disc'>Country Code live currecy search using API at top of page</li>
+      <li className='mt-3 list-disc'>Country Code live currency search using API at top of page</li>
     </ul>
     </section>
 
