@@ -85,9 +85,22 @@ import IronhackCert from "./IronhackCert";
       </li>
 
       <li>
-      ・VSCODE
+      ・Visual Studio Code
       </li>
-      
+      <li>
+      ・Microsoft Visual Studio
+      </li>
+      <li>
+      ・C#
+      </li>
+      <li>
+      ・ASP.NET
+      </li>
+
+      <li>
+      ・MS SQL
+      </li>
+
       <li>
       ・Some experience with Java
       </li>
