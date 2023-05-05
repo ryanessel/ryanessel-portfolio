@@ -52,8 +52,8 @@ import { useState } from "react";
             <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
             </Link>
 
-            <Link to='../docs/Resume-Ryan-Essel-5-5-2023.pdf' className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
-            </Link>
+            <a href='../docs/Resume-Ryan-Essel-5-5-2023.pdf' className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
+            </a>
 
 
 
