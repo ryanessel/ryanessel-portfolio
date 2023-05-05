@@ -52,7 +52,7 @@ import { useState } from "react";
             <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
             </Link>
 
-            <a href='../docs/Resume-Ryan-Essel-5-5-2023.pdf' className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
+            <a href='C:\Users\Goku 69\Desktop\work dropbox\Dropbox\NCA WORK\Javascript Study\module-3\ryan-essel-portfolio\ryan-essel-portfolio-with-tailwind\src\docs\Resume-Ryan-Essel-5-5-2023.pdf' className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
             </a>
 
 
