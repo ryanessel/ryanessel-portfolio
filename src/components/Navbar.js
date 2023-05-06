@@ -52,8 +52,8 @@ import RyanResume from "../docs/Resume-Ryan-Essel-5-5-2023.pdf"
 
             <Link to='/contact' className="block px-2 py-1 text-white hover:text-gray-400"  > Contact
             </Link>
-
-            <a href={RyanResume} className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
+            {/* linking to pdf files you need to do it like below and import it first. */}
+            <a href={RyanResume}  className="block px-2 py-1 text-white hover:text-gray-400"  > Ryan's Resume
             </a>
 
 
