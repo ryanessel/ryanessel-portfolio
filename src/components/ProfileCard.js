@@ -27,10 +27,7 @@ import IronhackCert from "./IronhackCert";
   <div className="card-body items-right text-center">
    
     <p className="items-right text-left">Hello, my name is Ryan Essel. Thank you for taking the time to look at my portfolio website. I like skateboarding and running.</p>
-    <div className="px-10 pt-10 text-2xl underline">
-    {/* title goes here */}
-    Ironhack Bootcamp Certification
-  </div>
+
     {/* <IronhackCert/> */}
     <br/>
     <p className="items-right text-left">My skill set includes the following:</p>
@@ -108,7 +105,11 @@ import IronhackCert from "./IronhackCert";
 
 
     </ul>
-      
+    <div className="px-10 pt-10 text-2xl underline">
+    {/* title goes here */}
+    Ironhack Bootcamp Certification
+    </div>
+
     <IronhackCert/>
 
     </div>
