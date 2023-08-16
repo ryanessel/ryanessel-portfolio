@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 homePageGreeting={"Hello Welcome to Ryan Essel's portfolio"}
 aboutInfo={`Please click the "About" link in the menu above to learn a bit about me`}
 myProjects={'Click on the "Projects" link to see my projects'}
-contactMe={`Please send me an email via the "Contact" page and/or contact me via the LinkedIn link at the bottom of each page`}
+contactMe={`Please send me an email via the "Contact" page or shoot me an email at spucti19@gmail.com`}
 githubRepo={"Please take a look at my github repository which can be accessed though the link at the bottom of each page"}
 
 

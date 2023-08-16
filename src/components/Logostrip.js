@@ -11,9 +11,7 @@ import Github from "../pictures/icons8-github.svg"
   
     <div className='flex justify-center'>
 
-    <a href="https://www.linkedin.com/in/ryan-essel-a198b9257/">
-       <img src={Linkden}/>
-    </a>
+ 
 
     <a href="https://github.com/ryanessel">
        <img src={Github}/>
